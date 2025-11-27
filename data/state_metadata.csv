@@ -1,0 +1,4 @@
+state_code,state_name,display_title,visual_path,raw_data_path
+OH,Ohio,Ohio Fines & Fees Overview,visuals/OH_visuals,data/raw/penalties_OH.csv
+ID,Idaho,Idaho Fines & Fees Overview,visuals/ID_visuals,data/raw/penalties_ID.csv
+TX,Texas,Texas Fines & Fees Overview,visuals/TX_visuals,data/raw/penalties_TX.csv
