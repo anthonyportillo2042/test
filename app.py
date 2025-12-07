@@ -19,6 +19,19 @@ st.set_page_config(page_title="InsightLegi – Fines & Fees", layout="wide")
 st.title("InsightLegi — Fines & Fees Across States")
 st.markdown("Click a state on the map OR choose one from the sidebar.")
 
+st.markdown(
+    """
+    <style>
+    /* Make plotly map regions use a pointer on hover */
+    .plotly .layer.below > g > path,
+    .plotly .choroplethlayer path {
+        cursor: pointer !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # -------------------- BUILD CHOROPLETH --------------------
 state_meta["value"] = 1  # keeps all states colored
 
@@ -32,27 +45,50 @@ fig = px.choropleth(
     color_continuous_scale=px.colors.sequential.Blues
 )
 
+# Remove margins
 fig.update_layout(margin=dict(l=0, r=0, t=0, b=0))
 fig.update_traces(marker_line_width=0.3)
 
+# ----- LIMIT ZOOM-OUT BUT KEEP ZOOM-IN -----
+fig.update_geos(
+    projection_type="albers usa",
+    projection_scale=1,               # minimum zoom (default USA view)
+    center={"lat": 37.8, "lon": -96}, # keeps map centered
+    fitbounds="locations",            # prevents drifting outside USA
+)
+
+fig.update_layout(
+    geo=dict(
+        projection_scale=1,           # ensures minimum zoom stays here
+        showland=True,
+        showcountries=False,
+        showcoastlines=False,
+        lataxis=dict(range=[23, 50]),
+        lonaxis=dict(range=[-130, -65]),
+    )
+)
+
+# ----- CSS: pointer cursor on hover -----
+st.markdown(
+    """
+    <style>
+    .plotly .choroplethlayer path,
+    .plotly .geo path,
+    .plotly .layer.below path {
+        cursor: pointer !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # -------------------- HANDLE CLICKS --------------------
-# Streamlit native click capture
 click_event = st.plotly_chart(
     fig,
     use_container_width=True,
     key="us_map_chart",
     on_select="rerun"
 )
-
-# Streamlit stores the selected data inside session_state
-if "us_map_chart" in st.session_state:
-    selected_points = st.session_state["us_map_chart"].get("selection", None)
-else:
-    selected_points = None
-
-if selected_points and "points" in selected_points and len(selected_points["points"]) > 0:
-    clicked_state_code = selected_points["points"][0]["location"]
-    st.session_state["selected_state_code"] = clicked_state_code
 
 # -------------------- SIDEBAR SELECTION FALLBACK --------------------
 state_options = dict(zip(state_meta["state_name"], state_meta["state_code"]))
