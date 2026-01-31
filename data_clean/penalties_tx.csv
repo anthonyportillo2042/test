@@ -1,0 +1,337 @@
+state,statute_id,statute_name,fee_id,estimated_amount,penalty_type,year,penalty_amt_min,penalty_amt_max,penalty_amt_fixed,penalty_other,Notes,is_discretionary_text,has_min,has_max,has_fixed,has_numeric_amount,amount_type
+texas,tx_1,tex. penal code § 12.21,tx_1_mca1,$0 - $4000,fine for class a misdemeanor,1991,0.0,3000.0,,,,False,False,True,False,True,range
+texas,tx_1,tex. penal code § 12.21,tx_1_mca1,$0 - $4000,fine for class a misdemeanor,1993,0.0,4000.0,,,,False,False,True,False,True,range
+texas,tx_2,tex. penal code § 12.22,tx_2_mcb1,$0 - $2000,fine for class b misdemeanor,1991,0.0,1500.0,,,,False,False,True,False,True,range
+texas,tx_2,tex. penal code § 12.22,tx_2_mcb1,$0 - $2000,fine for class b misdemeanor,1993,0.0,2000.0,,,,False,False,True,False,True,range
+texas,tx_3,tex. penal code § 12.23,tx_3_mcc1,$0 - $500,fine for class c misdemeanor,1991,0.0,500.0,,,Fee changed from 200 to 500 in 1991 ,False,False,True,False,True,range
+texas,tx_4,tex. penal code § 12.32,tx_4_fd1,$0 - $10000,first degree felony,1993,0.0,10000.0,,,,False,False,True,False,True,range
+texas,tx_5,tex. penal code § 12.33,tx_5_fd2,$0-$10000,second degree felony,1993,0.0,10000.0,,,,False,False,True,False,True,range
+texas,tx_6,tex. penal code § 12.34,tx_6_fd3,$0-$10000,third degree felony,1989,0.0,10000.0,,,,False,False,True,False,True,range
+texas,tx_7,tex. penal code § 12.35,tx_7_f1,$0-$10000,state jail felony,1993,0.0,10000.0,,,,False,False,True,False,True,range
+texas,tx_8,tex. code crim. proc. art. 102.014(d),tx_8_1,$20 ,court costs for parent contributing to truancy,1991,2.0,5.0,,,,False,True,True,False,True,range
+texas,tx_8,tex. code crim. proc. art. 102.014(d),tx_8_1,$20 ,court costs for parent contributing to truancy,1997,,,20.0,,,False,False,False,True,True,fixed
+texas,tx_8,tex. code crim. proc. art. 102.014(d),tx_8_1,$20 ,court costs for parent contributing to truancy,2001,,,25.0,,,False,False,False,True,True,fixed
+texas,tx_8,tex. code crim. proc. art. 102.014(d),tx_8_1,$20 ,court costs for parent contributing to truancy,2015,,,20.0,,,False,False,False,True,True,fixed
+texas,tx_9,tex. code crim. proc. art. 102.014(c),tx_9_1,$25 ,court costs for school zone violation,1991,,,20.0,,,False,False,False,True,True,fixed
+texas,tx_9,tex. code crim. proc. art. 102.014(c),tx_9_1,$25 ,court costs for school zone violation,2019,,,25.0,,,False,False,False,True,True,fixed
+texas,tx_10,tex. code crim. proc. art. 102.014(b),tx_10_1,$2 - $5,court costs for traffic and safety violations,1991,2.0,5.0,,,,False,True,True,False,True,range
+texas,tx_11,tex. penal code § 12.43,tx_11_mca,$0 - $4000,fine for habitual misdemeanor offenders (class a),1995,0.0,4000.0,,,,False,False,True,False,True,range
+texas,tx_11,tex. penal code § 12.43,tx_11_mcb,$0 - $2000,fine for habitual misdemeanor offenders (class b),1995,0.0,2000.0,,,,False,False,True,False,True,range
+texas,tx_11,tex. penal code § 12.43,tx_11_mcc,$0 - $2000,fine for habitual misdemeanor offenders (class c),1999,0.0,2000.0,,,,False,False,True,False,True,range
+texas,tx_11,tex. code crim. proc. art. 26.05(g),tx_11_r,Cost of legal services defendant is able to pay,compensation of appointed defense counsel,2011,,,,,Repealed 2011,False,False,False,False,False,none
+texas,tx_12,tex. code crim. proc. art 102.005(a),tx_12_r,$40 ,clerk of the court fee,2011,,,,,Repealed 2011,False,False,False,False,False,none
+texas,tx_13,tex. code crim. proc. art 102.005(f),tx_13_r,$25 ,records management and preservation fee,2011,,,,,Repealed 2011,False,False,False,False,False,none
+texas,tx_14,tex. code crim. proc. art 102.006,tx_14_r,$3 - $0 plus postage &amp; charge of filing ex parte petition ,fees in expunction proceedings,2011,,,,,Repealed 2011,False,False,False,False,False,none
+texas,tx_15,tex. code crim. proc. art 102.0169,tx_15_r,$4 ,technology fee,2009,,,4.0,,,False,False,False,True,True,fixed
+texas,tx_16,tex. code crim. proc. art 102.008,tx_16_r,$25 ,fees for services of prosecutors - misdemeanor/gambling offense,2011,,,,,Repealed,False,False,False,False,False,none
+texas,tx_17,tex. code crim. proc. art 102.011,tx_17_1,$5 - $50,fees for services of peace officers,1987,5.0,20.0,,,,False,True,True,False,True,range
+texas,tx_17,tex. code crim. proc. art 102.011,tx_17_1,$5 - $50,fees for services of peace officers,1999,5.0,35.0,,,,False,True,True,False,True,range
+texas,tx_17,tex. code crim. proc. art 102.011,tx_17_1,$5 - $50,fees for services of peace officers,2023,5.0,50.0,,,,False,True,True,False,True,range
+texas,tx_18,tex. code crim. proc. art 102.012,tx_18_1,$0 - $60 plus costs of the program,fees for pre-trial intervention,2007,,,60.0,,"A court that authorizes a defendant to participate in a pretrial intervention program established under Section 76.011, Government Code, may order the defendant to pay to the court a supervision reimbursement fee in an amount not more than $60 per month as a condition of participating in the program.",False,False,False,True,True,fixed
+texas,tx_19,tex. code crim. proc. art 102.0121,tx_19_1,$0 - $500,fees for certain expenses related to pre-trial program,2023,0.0,500.0,,,,False,False,True,False,True,range
+texas,tx_20,tex. code crim. proc. art. 42.038,tx_20_1,$25 - $0 $25/day of confinement,confinement expenses,1999,,,25.0,,"[A> ART. 42.038. REIMBURSEMENT FOR CONFINEMENT EXPENSES. (A) IN ADDITION TO ANY FINE, COST, OR FEE AUTHORIZED BY LAW, A COURT THAT SENTENCES A DEFENDANT CONVICTED OF A MISDEMEANOR TO SERVE A TERM OF CONFINEMENT IN COUNTY JAIL AND ORDERS EXECUTION OF THE SENTENCE MAY REQUIRE THE DEFENDANT TO REIMBURSE THE COUNTY FOR THE DEFENDANT'S CONFINEMENT AT A RATE OF $ 25 A DAY. <A]",False,False,False,True,True,fixed
+texas,tx_21,tex. code crim. proc. art. 42a.652,tx_21_1,$25 - $60,monthly fee for community supervision,2015,25.0,60.0,,,,False,True,True,False,True,range
+texas,tx_22,tex. code crim. proc. art. 42a.409,tx_22_1,Cost of the program,community supervisions for enhanced public intoxication offense,2015,,,,community supervision fee,"    (3) if indicated as necessary by testing and assessment, participate in an alcohol or drug abuse treatment or education program; and
+
+    (4) pay the costs of testing, assessment, and treatment or education, either directly or as a court cost.",False,False,False,False,False,none
+texas,tx_23,tex. code crim. proc. art. 42a.607,tx_23_1,"cost of housing, plus travel, plus child support, plus victim restitution, plus other incidental expenses",confinement as part of community supervision - disposition of salary,2015,,,,cost,"cost of housing, plus travel, plus child support, plus victim restitution, plus other incidental expenses",False,False,False,False,False,none
+texas,tx_24,tex. code crim. proc. art. 42a.513,tx_24_1,Cost of course,community supervision for making firearm accessible to child,2015,,,,community supervision fee,"2015: (a) A court granting community supervision to a defendant convicted of an offense under Section 46.13, Penal Code, may require as a condition of community supervision that the defendant:
+(1) provide an appropriate public service activity designated by the court; or
+(2) attend a firearms safety course that meets or exceeds the requirements set by the National Rifle Association as of January 1, 1995, for a firearms safety course that requires not more than 17 hours of instruction.
+(b) The court shall require the defendant to pay the cost of attending the firearms safety course under Subsection (a)(2). (Code Crim. Proc., Art. 42.12, Sec. 13C.)",False,False,False,False,False,none
+texas,tx_25,tex. code crim. proc. art. 42a.504,tx_25_1,Cost of services for defendant plus the cost of services for the victim,community supervision for offenses involving family violence,2015,,,100.0,,"2015: (a) In this article:
+(1) “Family violence” has the meaning assigned by Section 71.004, Family Code.
+(2) “Family violence center” has the meaning assigned by Section 51.002, Human Resources Code.
+(b) If a judge grants community supervision to a defendant convicted of an offense under Title 5, Penal Code, that the court determines involves family violence, the judge shall require the defendant to pay $100 to a family violence center that:
+(1) receives state or federal funds; and
+(2) serves the county in which the court is located.
+(c) If the court grants community supervision to a defendant convicted of an offense involving family violence, the court may require the defendant, at the direction of the supervision officer, to:
+(1) attend a battering intervention and prevention program or counsel with a provider of battering intervention and prevention services if the program or provider has been accredited under Section 4A, Article 42.141, as conforming to program guidelines under that article; or
+(2) if the referral option under Subdivision (1) is not available, attend counseling sessions for the elimination of violent behavior with a licensed counselor, social worker, or other professional who has completed family violence intervention training that the community justice assistance division of the Texas Department of Criminal Justice has approved, after consultation with the licensing authorities described by Chapters 152, 501, 502, 503, and 505, Occupations Code, and experts in the field of family violence.
+(d) If the court requires the defendant to attend counseling or a program, the court shall require the defendant to begin attendance not later than the 60th day after the date the court grants community supervision, notify the supervision officer of the name, address, and phone number of the counselor or program, and report the defendant’s attendance to the supervision officer. The court shall require the defendant to pay all the reasonable costs of the counseling sessions or attendance in the program on a finding that the defendant is financially able to make payment. If the court finds the defendant is unable to make payment, the court shall make the counseling sessions or enrollment in the program available without cost to the defendant. The court may also require the defendant to pay all or a part of the reasonable costs incurred by the victim for counseling made necessary by the offense, on a finding that the defendant is financially able to make payment. The court may order the defendant to make payments under this subsection for a period not to exceed one year after the date on which the order is entered. (Code Crim. Proc., Art. 42.12, Sec. 11(h); Secs. 14(c), (c-1), (c-2), as amended Acts 73rd Leg., R.S., Ch. 165 (H.B. 119), Acts 76th Leg., R.S., Ch. 910 (H.B. 2187), Acts 78th Leg., R.S., Ch. 353 (S.B. 1054), Acts 80th Leg., R.S., Ch. 113 (S.B. 44).)",False,False,False,True,True,fixed
+texas,tx_25,tex. code crim. proc. art. 42a.504,tx_25_1,Cost of services for defendant plus the cost of services for the victim,community supervision for offenses involving family violence,2019,,,100.0,,"2019: (b) If a judge grants community supervision to a defendant convicted of an offense under Title 5, Penal Code, that the court determines involves family violence, the judge shall require the defendant to pay a fine of $100 to a family violence center that:
+(1) receives state or federal funds; and
+(2) serves the county in which the court is located.",False,False,False,True,True,fixed
+texas,tx_26,tex. code crim. proc.. art. 102.017,tx_26_1,$3 - $5,court security,1993,3.0,5.0,,,"1993: [A> ART. 102.017. COURT COSTS; COURTHOUSE SECURITY FUND. (A) A DEFENDANT CONVICTED IN A TRIAL FOR A FELONY OFFENSE IN A DISTRICT COURT SHALL PAY A $ 5 SECURITY FEE AS A COST OF COURT. <A]
+
+[A> (B) A DEFENDANT CONVICTED IN A TRIAL FOR A MISDEMEANOR OFFENSE IN A COUNTY COURT, COUNTY COURT AT LAW, OR A DISTRICT COURT SHALL PAY A $ 3 SECURITY FEE AS A COST OF COURT. <A]
+
+[A> (C) THE CLERKS OF THE RESPECTIVE COURTS SHALL COLLECT THE COSTS AND PAY THEM TO THE COUNTY TREASURER, OR TO ANY OTHER OFFICIAL WHO DISCHARGES THE DUTIES COMMONLY DELEGATED TO THE COUNTY TREASURER, FOR DEPOSIT IN A FUND TO BE KNOWN AS THE COURTHOUSE SECURITY FUND. THE FUND MAY BE USED ONLY TO FINANCE THE FOLLOWING ITEMS WHEN USED FOR THE PURPOSE OF PROVIDING SECURITY SERVICES FOR BUILDINGS HOUSING A DISTRICT OR COUNTY COURT: <A]
+
+[A> (1) THE PURCHASE OR REPAIR OF X-RAY MACHINES AND CONVEYING SYSTEMS; <A]
+
+            [A> (2) HANDHELD METAL DETECTORS; <A]
+
+            [A> (3) WALKTHROUGH METAL DETECTORS; <A]
+
+            [A> (4) IDENTIFICATION CARDS AND SYSTEMS; <A]
+
+            [A> (5) ELECTRONIC LOCKING AND SURVEILLANCE EQUIPMENT; <A]
+
+[A> (6) BAILIFFS, DEPUTY SHERIFFS, DEPUTY CONSTABLES, OR CONTRACT SECURITY PERSONNEL DURING TIMES WHEN THEY ARE PROVIDING APPROPRIATE SECURITY SERVICES; <A]
+
+            [A> (7) SIGNAGE; <A]
+
+[A> (8) CONFISCATED WEAPON INVENTORY AND TRACKING SYSTEMS; OR <A]
+
+            [A> (9) LOCKS, CHAINS, OR OTHER SECURITY HARDWARE.  <A]
+
+[A> (D) THE COURTHOUSE SECURITY FUND SHALL BE ADMINISTERED BY OR UNDER THE DIRECTION OF THE COMMISSIONERS COURT. <A]
+
+
+(Next | Previous) SECTION 2. Chapter 291, Local Government Code, is amended by adding Section 291.007 to read as follows:
+[A> SEC. 291.007. FEE FOR SECURITY. (A) THE COMMISSIONERS COURT MAY SET A FEE NOT TO EXCEED $ 5 TO BE COLLECTED AT THE TIME OF FILING IN EACH CIVIL CASE FILED IN A COUNTY COURT, COUNTY COURT AT LAW, OR DISTRICT COURT WHICH SHALL BE TAXED AS OTHER COSTS. THE COUNTY IS NOT LIABLE FOR THE COSTS. <A]
+
+[A> (B) IN ANY CIVIL CASE BROUGHT BY THE STATE OR A POLITICAL SUBDIVISION OF THE STATE IN A COUNTY COURT, COUNTY COURT AT LAW, OR DISTRICT COURT IN A COUNTY IN WHICH THE COMMISSIONERS COURT HAS ADOPTED A FEE UNDER SUBSECTION (A) OF THIS SECTION IN WHICH THE STATE OR POLITICAL SUBDIVISION IS THE PREVAILING PARTY, THE AMOUNT OF THAT FEE SHALL BE TAXED AND COLLECTED AS A COST OF COURT AGAINST EACH NONPREVAILING PARTY. <A]
+
+[A> (C) THE CLERKS OF THE RESPECTIVE COURTS SHALL COLLECT THE COSTS ESTABLISHED BY SUBSECTIONS (A) AND (B) OF THIS SECTION. <A]
+
+[A> (D) IF A COMMISSIONERS COURT SETS A SECURITY FEE UNDER SUBSECTION (A) OF THIS SECTION, THE COUNTY AND DISTRICT CLERKS SHALL COLLECT A FEE OF $ 1 FOR FILING ANY DOCUMENT NOT SUBJECT TO THE SECURITY FEE. THE COUNTY IS NOT LIABLE FOR THE COSTS. THE COUNTY OR DISTRICT CLERK, AS APPROPRIATE, SHALL COLLECT THIS FEE. <A]
+
+[A> (E) COSTS AND FEES COLLECTED UNDER SUBSECTION (C) OR (D) OF THIS SECTION SHALL BE PAID TO THE COUNTY TREASURER, OR TO ANY OTHER OFFICIAL WHO DISCHARGES THE DUTIES COMMONLY DELEGATED TO THE COUNTY TREASURER, FOR DEPOSIT IN THE COURTHOUSE SECURITY FUND ESTABLISHED BY ARTICLE 102.017, CODE OF CRIMINAL PROCEDURE. <A]",False,True,True,False,True,range
+texas,tx_26,tex. code crim. proc.. art. 102.017,tx_26_1,$3 - $5,court security,1993,,,15.0,,"1993: [A> ART. 102.017. COSTS ATTENDANT TO INTOXICATION CONVICTIONS. (A) EXCEPT AS PROVIDED BY SUBSECTION (D) OF THIS ARTICLE, ON CONVICTION OF AN OFFENSE RELATING TO THE DRIVING OR OPERATING OF A MOTOR VEHICLE UNDER SECTION 49.04, PENAL CODE, THE COURT SHALL IMPOSE A COST OF $ 15 ON A DEFENDANT IF, SUBSEQUENT TO THE ARREST OF THE DEFENDANT, A LAW ENFORCEMENT AGENCY VISUALLY RECORDED THE DEFENDANT WITH AN ELECTRONIC DEVICE. COSTS IMPOSED UNDER THIS SUBSECTION ARE IN ADDITION TO OTHER COURT COSTS AND ARE DUE WHETHER OR NOT THE DEFENDANT IS GRANTED PROBATION IN THE CASE. THE COURT SHALL COLLECT THE COSTS IN THE SAME MANNER AS OTHER COSTS ARE COLLECTED IN THE CASE. <A]
+
+[A> (B) EXCEPT AS PROVIDED BY SUBSECTION (D) OF THIS ARTICLE, ON CONVICTION OF AN OFFENSE RELATING TO THE DRIVING OR OPERATING OF A MOTOR VEHICLE PUNISHABLE UNDER SECTION 49.04(B), PENAL CODE, THE COURT SHALL IMPOSE AS A COST OF COURT ON THE DEFENDANT AN AMOUNT THAT IS EQUAL TO THE COST OF AN EVALUATION OF THE DEFENDANT PERFORMED UNDER SECTION 13(A), ARTICLE 42.12, OF THIS CODE. COSTS IMPOSED UNDER THIS SUBSECTION ARE IN ADDITION TO OTHER COURT COSTS AND ARE DUE WHETHER OR NOT THE DEFENDANT IS GRANTED PROBATION IN THE CASE, EXCEPT THAT IF THE COURT DETERMINES THAT THE DEFENDANT IS INDIGENT AND UNABLE TO PAY THE COST, THE COURT MAY WAIVE THE IMPOSITION OF THE COST. <A]
+
+[A> (C)(1) EXCEPT AS PROVIDED BY SUBSECTION (D) OF THIS ARTICLE, IF A PERSON COMMITS AN OFFENSE UNDER CHAPTER 49, PENAL CODE, AND AS A DIRECT RESULT OF THE OFFENSE THE PERSON CAUSES AN INCIDENT RESULTING IN AN ACCIDENT RESPONSE BY A PUBLIC AGENCY, THE PERSON IS LIABLE ON CONVICTION FOR THE OFFENSE FOR THE REASONABLE EXPENSE TO THE AGENCY OF THE ACCIDENT RESPONSE. IN THIS ARTICLE, A PERSON IS CONSIDERED TO HAVE BEEN CONVICTED IN A CASE IF: <A]
+
+   [A> (A) SENTENCE IS IMPOSED; <A]
+
+[A> (B) THE DEFENDANT RECEIVES PROBATION OR DEFERRED ADJUDICATION; OR <A]
+
+[A> (C) THE COURT DEFERS FINAL DISPOSITION OF THE CASE. <A]
+
+[A> (2) THE LIABILITY AUTHORIZED BY THIS SUBSECTION MAY BE ESTABLISHED BY CIVIL SUIT; HOWEVER, IF A DETERMINATION IS MADE DURING A CRIMINAL TRIAL THAT A PERSON COMMITTED AN OFFENSE UNDER CHAPTER 49, PENAL CODE, AND AS A DIRECT RESULT OF THE OFFENSE THE PERSON CAUSED AN INCIDENT RESULTING IN AN ACCIDENT RESPONSE BY A PUBLIC AGENCY, THE COURT MAY INCLUDE THE OBLIGATION FOR THE LIABILITY AS PART OF THE JUDGMENT. A JUDGMENT THAT INCLUDES SUCH AN OBLIGATION IS ENFORCEABLE AS ANY OTHER JUDGMENT. <A]
+
+[A> (3) THE LIABILITY IS A DEBT OF THE PERSON TO THE PUBLIC AGENCY, AND THE PUBLIC AGENCY MAY COLLECT THE DEBT IN THE SAME MANNER AS THE PUBLIC AGENCY COLLECTS AN EXPRESS OR IMPLIED CONTRACTUAL OBLIGATION TO THE AGENCY. <A]
+
+[A> (4) A PERSON'S LIABILITY UNDER THIS SUBSECTION FOR THE REASONABLE EXPENSE OF AN ACCIDENT RESPONSE MAY NOT EXCEED $ 1,000 FOR A PARTICULAR INCIDENT. FOR THE PURPOSES OF THIS SUBDIVISION, A REASONABLE EXPENSE FOR AN ACCIDENT RESPONSE INCLUDES ONLY THOSE COSTS TO THE PUBLIC AGENCY ARISING DIRECTLY FROM AN ACCIDENT RESPONSE TO A PARTICULAR INCIDENT, SUCH AS THE COST OF PROVIDING POLICE, FIRE-FIGHTING, RESCUE, AMBULANCE, AND EMERGENCY MEDICAL SERVICES AT THE SCENE OF THE INCIDENT AND THE SALARIES OF THE PERSONNEL OF THE PUBLIC AGENCY RESPONDING TO THE INCIDENT. <A]
+
+[A> (5) A BILL FOR THE EXPENSE OF AN ACCIDENT RESPONSE SENT TO A PERSON BY A PUBLIC AGENCY UNDER THIS SUBSECTION MUST CONTAIN AN ITEMIZED ACCOUNTING OF THE COMPONENTS OF THE TOTAL CHARGE. A BILL THAT COMPLIES WITH THIS SUBDIVISION IS PRIMA FACIE EVIDENCE OF THE REASONABLENESS OF THE COSTS INCURRED IN THE ACCIDENT RESPONSE TO WHICH THE BILL APPLIES. <A]
+
+[A> (6) A POLICY OF MOTOR VEHICLE INSURANCE DELIVERED, ISSUED FOR DELIVERY, OR RENEWED IN THIS STATE MAY NOT COVER PAYMENT OF EXPENSES CHARGED TO A PERSON UNDER THIS SUBSECTION. <A]
+
+[A> (7) IN THIS SUBSECTION, ""PUBLIC AGENCY"" MEANS THE STATE, A COUNTY, A MUNICIPALITY DISTRICT, OR A PUBLIC AUTHORITY LOCATED IN WHOLE OR IN PART IN THIS STATE THAT PROVIDES POLICE, FIRE-FIGHTING, RESCUE, AMBULANCE, OR EMERGENCY MEDICAL SERVICES. <A]
+
+[A> (D) SUBSECTIONS (A), (B), AND (C) OF THIS ARTICLE DO NOT APPLY TO AN OFFENSE UNDER SECTION 49.02 OR 49.03, PENAL CODE. <A]
+
+",False,False,False,True,True,fixed
+texas,tx_26,tex. code crim. proc.. art. 102.017,tx_26_1,$3 - $5,court security,1995,3.0,5.0,,,"1995: Art. 102.017. COURT COSTS; COURTHOUSE SECURITY FUND [A> ; MUNICIPAL COURT BUILDING SECURITY FUND <A] . (a) A defendant convicted in a trial for a felony offense in a district court shall pay a $ 5 security fee as a cost of court.
+
+(b) A defendant convicted in a trial for a misdemeanor offense in a county court, county court at law, or a district court shall pay a $ 3 security fee as a cost of court. [A> THE GOVERNING BODY OF A MUNICIPALITY BY ORDINANCE MAY CREATE A MUNICIPAL COURT BUILDING SECURITY FUND AND MAY REQUIRE A DEFENDANT CONVICTED IN A TRIAL FOR A MISDEMEANOR OFFENSE IN A MUNICIPAL COURT TO PAY A $ 3 SECURITY FEE AS A COST OF COURT. <A]
+
+(c) [A> IN THIS ARTICLE, A PERSON IS CONSIDERED CONVICTED IF: <A]
+
+[A> (1) A SENTENCE IS IMPOSED ON THE PERSON; <A]
+
+[A> (2) THE PERSON RECEIVES COMMUNITY SUPERVISION, INCLUDING DEFERRED ADJUDICATION; OR <A]
+
+[A> (3) THE COURT DEFERS FINAL DISPOSITION OF THE PERSON'S CASE. <A]
+
+[A> (D) <A] The clerks of the respective courts shall collect the costs and pay them to the county [A> OR MUNICIPAL <A] treasurer, [A> AS APPROPRIATE <A] or to any other official who discharges the duties commonly delegated to the county [A> OR MUNICIPAL <A] treasurer, [A> AS APPROPRIATE, <A] for deposit in a fund to be known as the courthouse security fund [A> OR A FUND TO BE KNOWN AS THE MUNICIPAL COURT BUILDING SECURITY FUND, AS APPROPRIATE <A] . [A> A <A] [D> The <D] fund [A> DESIGNATED BY THIS SUBSECTION <A] may be used only to finance the following items when used for the purpose of providing security services for buildings housing a district [A> , <A] [D> or <D] county [A> , OR MUNICIPAL <A] court [A> , AS APPROPRIATE <A] :
+
+(1) the purchase or repair of X-ray machines and conveying systems;
+
+(2) handheld metal detectors;
+
+(3) walkthrough metal detectors;
+
+(4) identification cards and systems;
+
+(5) electronic locking and surveillance equipment;
+
+(6) bailiffs, deputy sheriffs, deputy constables, or contract security personnel during times when they are providing appropriate security services;
+
+(7) signage;
+
+(8) confiscated weapon inventory and tracking systems; or
+
+(9) locks, chains, or other security hardware.
+
+[A> (E) <A] [D> (d) <D] The courthouse security fund shall be administered by or under the direction of the commissioners court. [A> THE MUNICIPAL COURT BUILDING FUND SHALL BE ADMINISTERED BY OR UNDER THE DIRECTION OF THE GOVERNING BODY OF THE MUNICIPALITY. <A]",False,True,True,False,True,range
+texas,tx_26,tex. code crim. proc.. art. 102.017,tx_26_1,$3 - $5,court security,1997,3.0,5.0,,,"1997: (a) A defendant convicted [A> OF <A] [D> in a trial for <D] a felony offense in a district court shall pay a $ 5 security fee as a cost of court.
+
+(b) A defendant convicted [A> OF <A] [D> in a trial for <D] a misdemeanor offense in a [A> JUSTICE COURT, <A] county court, county court at law, or [D> a <D] district court shall pay a $ 3 security fee as a cost of court. The governing body of a municipality by ordinance may create a municipal court building security fund and may require a defendant convicted [A> OF <A] [D> in a trial for <D] a misdemeanor offense in a municipal court to pay a $ 3 security fee as a cost of court.
+
+(d) The clerks of the respective courts shall collect the costs and pay them to the county or municipal treasurer, as appropriate [A> , <A] or to any other official who discharges the duties commonly delegated to the county or municipal treasurer, as appropriate, for deposit in a fund to be known as the courthouse security fund or a fund to be known as the municipal court building security fund, as appropriate. A fund designated by this subsection may be used only to finance the following items when used for the purpose of providing security services for buildings housing a district, county, [A> JUSTICE, <A] or municipal court, as appropriate:
+
+(1) the purchase or repair of X-ray machines and conveying systems;
+
+(2) handheld metal detectors;
+
+(3) walkthrough metal detectors;
+
+(4) identification cards and systems;
+
+(5) electronic locking and surveillance equipment;
+
+(6) bailiffs, deputy sheriffs, deputy constables, or contract security personnel during times when they are providing appropriate security services;
+
+(7) signage;
+
+(8) confiscated weapon inventory and tracking systems; [D> or <D]
+
+(9) locks, chains, or other security hardware [A> ; OR <A]
+
+[A> (10) CONTINUING EDUCATION ON SECURITY ISSUES FOR COURT PERSONNEL AND SECURITY PERSONNEL <A] .",False,True,True,False,True,range
+texas,tx_26,tex. code crim. proc.. art. 102.017,tx_26_1,$3 - $5,court security,2005,3.0,4.0,,,"2005: (b) A defendant convicted of a misdemeanor offense in a [D> justice court, <D] county court, county court at law, or district court shall pay a $ 3 security fee as a cost of court. [A> A DEFENDANT CONVICTED OF A MISDEMEANOR OFFENSE IN A JUSTICE COURT SHALL PAY A $ 4 SECURITY FEE AS A COST OF COURT. <A] The governing body of a municipality by ordinance may create a municipal court building security fund and may require a defendant convicted of a misdemeanor offense in a municipal court to pay a $ 3 security fee as a cost of court.
+
+(d) [A> EXCEPT AS PROVIDED BY SUBSECTION (D-1), THE <A] [D> The <D] clerks of the respective courts shall collect the costs and pay them to the county or municipal treasurer, as appropriate, or to any other official who discharges the duties commonly delegated to the county or municipal treasurer, as appropriate, for deposit in a fund to be known as the courthouse security fund or a fund to be known as the municipal court building security fund, as appropriate. A fund designated by this subsection may be used only to finance items when used for the purpose of providing security services for buildings housing a district, county, justice, or municipal court, as appropriate, including:
+
+(1) the purchase or repair of X-ray machines and conveying systems;
+
+(2) handheld metal detectors;
+
+(3) walkthrough metal detectors;
+
+(4) identification cards and systems;
+
+(5) electronic locking and surveillance equipment;
+
+(6) bailiffs, deputy sheriffs, deputy constables, or contract security personnel during times when they are providing appropriate security services;
+
+(7) signage;
+
+(8) confiscated weapon inventory and tracking systems;
+
+(9) locks, chains, alarms, or similar security devices;
+
+(10) the purchase or repair of bullet-proof glass; and
+
+(11) continuing education on security issues for court personnel and security personnel.
+
+[A> (D-1)(1) THIS SUBSECTION APPLIES ONLY TO A JUSTICE COURT LOCATED IN A COUNTY IN WHICH ONE OR MORE JUSTICE COURTS ARE LOCATED IN A BUILDING THAT IS NOT THE COUNTY COURTHOUSE. <A]
+
+[A> (2) THE COUNTY TREASURER SHALL DEPOSIT ONE-FOURTH OF THE COST OF COURT COLLECTED UNDER SUBSECTION (B) IN A JUSTICE COURT DESCRIBED BY SUBDIVISION (1) INTO A FUND TO BE KNOWN AS THE JUSTICE COURT BUILDING SECURITY FUND. A FUND DESIGNATED BY THIS SUBSECTION MAY BE USED ONLY FOR THE PURPOSE OF PROVIDING FOR A JUSTICE COURT LOCATED IN A BUILDING THAT IS NOT THE COUNTY COURTHOUSE SECURITY SERVICES AS DESCRIBED BY SUBSECTION (D). <A]
+
+(e) The courthouse security fund [A> AND THE JUSTICE COURT BUILDING SECURITY FUND <A] shall be administered by or under the direction of the commissioners court. The municipal court building fund shall be administered by or under the direction of the governing body of the municipality.",False,True,True,False,True,range
+texas,tx_27,tex. code crim. proc. art. 42a.452,tx_27_1,Costs of treatment,"treatment, specialized supervisions, or rehabilitation – conditions applicable to sex offenders",2015,,,,cost ,"2015: A judge who grants community supervision to a sex offender evaluated under Article 42A.258 may require the sex offender as a condition of community supervision to submit to treatment, specialized supervision, or rehabilitation according to offense-specific standards of practice adopted by the Council on Sex Offender Treatment. On a finding that the defendant is financially able to make payment, the judge shall require the defendant to pay all or part of the reasonable and necessary costs of the treatment, supervision, or rehabilitation. (Code Crim. Proc., Art. 42.12, Sec. 11(i).)",False,False,False,False,False,none
+texas,tx_28,tex. code crim. proc. art. 42a.408,tx_28_1,Cost of device,use of ignition interlock device,2015,,,,cost,"2015: (a) In this article, “ignition interlock device” means a device that uses a deep-lung breath analysis mechanism to make impractical the operation of the motor vehicle if ethyl alcohol is detected in the breath of the operator.
+(b) The court may require as a condition of community supervision that a defendant placed on community supervision after conviction of an offense under Sections 49.04-49.08, Penal Code, have an ignition interlock device installed on the motor vehicle owned by the defendant or on the vehicle most regularly driven by the defendant and that the defendant not operate any motor vehicle that is not equipped with that device.
+(c) The court shall require as a condition of community supervision that a defendant described by Subsection (b) have an ignition interlock device installed on the motor vehicle owned by the defendant or on the vehicle most regularly driven by the defendant and that the defendant not operate any motor vehicle unless the vehicle is equipped with that device if:
+(1) it is shown on the trial of the offense that an analysis of a specimen of the defendant’s blood, breath, or urine showed an alcohol concentration level of 0.15 or more at the time the analysis was performed;
+(2) the defendant is placed on community supervision after conviction of an offense under Sections 49.04-49.06, Penal Code, for which the defendant is punished under Section 49.09(a) or (b), Penal Code; or
+(3) the court determines under Subsection (d) that the defendant has one or more previous convictions under Sections 49.04-49.08, Penal Code.
+(d) Before placing on community supervision a defendant convicted of an offense under Sections 49.04-49.08, Penal Code, the court shall determine from criminal history record information maintained by the Department of Public Safety whether the defendant has one or more previous convictions under any of those sections. A previous conviction may not be used for purposes of restricting a defendant to the operation of a motor vehicle equipped with an ignition interlock device under Subsection (c) if:
+(1) the previous conviction was a final conviction under Section 49.04, 49.045, 49.05, 49.06, 49.07, or 49.08, Penal Code, and was for an offense committed before the beginning of the 10-year period preceding the date of the instant offense for which the defendant was convicted and placed on community supervision; and
+(2) the defendant has not been convicted of an offense under Section 49.04, 49.045, 49.05, 49.06, 49.07, or 49.08, Penal Code, committed within the 10-year period preceding the date of the instant offense for which the defendant was convicted and placed on community supervision.
+(e) Notwithstanding any other provision of this subchapter or other law, a judge who places on community supervision a defendant who was younger than 21 years of age at the time of the offense and was convicted for an offense under Sections 49.04-49.08, Penal Code, shall require as a condition of community supervision that the defendant not operate any motor vehicle unless the vehicle is equipped with an ignition interlock device.
+(f) The court shall require the defendant to obtain an ignition interlock device at the defendant’s own cost before the 30th day after the date of conviction unless the court finds that to do so would not be in the best interest of justice and enters its findings on record. The court shall require the defendant to provide evidence to the court within the 30-day period that the device has been installed on the appropriate vehicle and order the device to remain installed on that vehicle for a period the length of which is not less than 50 percent of the supervision period. If the court determines the defendant is unable to pay for the ignition interlock device, the court may impose a reasonable payment schedule not to exceed twice the length of the period of the court’s order.
+(g) The Department of Public Safety shall approve ignition interlock devices for use under this article. Section 521.247, Transportation Code, applies to the approval of a device under this article and the consequences of that approval.
+(h) Notwithstanding any other provision of this subchapter, if a defendant is required to operate a motor vehicle in the course and scope of the defendant’s employment and if the vehicle is owned by the employer, the defendant may operate that vehicle without installation of an approved ignition interlock device if the employer has been notified of that driving privilege restriction and if proof of that notification is with the vehicle. The employment exemption does not apply if the business entity that owns the vehicle is owned or controlled by the defendant. (Code Crim. Proc., Art. 42.12, Secs. 13(i) (part), (n) (part).)",False,False,False,False,False,none
+texas,tx_29,tex. code crim. proc. art. 42a.303(d)(2),tx_29_1,Cost of program,community supervision - drug/alcohol program,2015,,,,cost,2015: pay a fee in an amount established by the judge for residential aftercare required as part of the treatment plan.,False,False,False,False,False,none
+texas,tx_30,tex. code crim. proc. 42a.301(g)(18),tx_30_1,"Cost of analysis, storage, disposal of material, controlled substance, etc. in connection with offense",storage costs,2015,,,,cost,"2015: reimburse a law enforcement agency for the analysis, storage, or disposal of raw materials, controlled substances, chemical precursors, drug paraphernalia, or other materials seized in connection with the offense",False,False,False,False,False,none
+texas,tx_31,tex. loc. gov't code sec. 133.105,tx_31_r,$6 ,fee for support of court related purposes,2007,,,6.0,,"2007: A person convicted of any offense, other than an offense relating to a pedestrian or the parking of a motor vehicle, shall pay as a court cost, in addition to all other costs, a fee of $ 6 $ 4 to be used for court-related purposes for the support of the judiciary.",False,False,False,True,True,fixed
+texas,tx_32,tex. code crim. proc. art. 102.001,tx_32_1,$0.15 - $0 $0.15 per mile traveled,services of peace officers,1987,1.0,12.0,,,,False,True,True,False,True,range
+texas,tx_32,tex. code crim. proc. art. 102.001,tx_32_1,$0.15 - $0 $0.15 per mile traveled,services of peace officers,1989,,,,0.15,,False,False,False,False,False,none
+texas,tx_32,tex. code crim. proc. art. 102.001,tx_32_1,$0.15 - $0 $0.15 per mile traveled,services of peace officers,2019,,,,0.15,"2019: A defendant required to pay reimbursement fees under this article shall also pay 15 cents per mile for mileage required of an officer to perform a service listed in this subsection and to return from performing that service. If the service provided is the execution of a writ and the writ is directed to two or more persons or the officer executes more than one writ in a case, the defendant is required to pay only mileage actually and necessarily traveled. In calculating mileage, the officer must use the railroad or the most practical route by private conveyance. This subsection applies to:
+(1) conveying a prisoner after conviction to the county jail;
+(2) conveying a prisoner arrested on a warrant or capias issued in another county to the court or jail of the county in which the warrant or capias was issued; and
+(3) traveling to execute criminal process, to summon or attach a witness, and to execute process not otherwise described by this article.",False,False,False,False,False,none
+texas,tx_33,tex. code crim. proc. art. 102.0045,tx_33_r,$4 ,fee for jury reimbursement,2005,,,4.0,,"2005: ART. 102.0045. FEE FOR JURY REIMBURSEMENT TO COUNTIES. (A) A PERSON CONVICTED OF ANY OFFENSE, OTHER THAN AN OFFENSE RELATING TO A PEDESTRIAN OR THE PARKING OF A MOTOR VEHICLE, SHALL PAY AS A COURT COST, IN ADDITION TO ALL OTHER COSTS, A FEE OF $ 4 TO BE USED TO REIMBURSE COUNTIES FOR THE COST OF JUROR SERVICES AS PROVIDED BY SECTION 61.0015, GOVERNMENT CODE.",False,False,False,True,True,fixed
+texas,tx_34,tex. code crim. proc. art. 102.004,tx_34_r,"$3 - $40 $3 for municipal court, $40 for county/district ",jury fee - convicted defendant,1985,,,5.0,,repealed,False,False,False,True,True,fixed
+texas,tx_34,tex. code crim. proc. art. 102.004,tx_34_r,"$3 - $40 $3 for municipal court, $40 for county/district ",jury fee - convicted defendant,1989,,,20.0,,repealed,False,False,False,True,True,fixed
+texas,tx_34,tex. code crim. proc. art. 102.004,tx_34_r,"$3 - $40 $3 for municipal court, $40 for county/district ",jury fee - convicted defendant,2015,,,40.0,,repealed (2019),False,False,False,True,True,fixed
+texas,tx_35,tex. code crim. proc. 42a.301(g)(17)a,tx_35_1,$0-$50,community supervision - victim restitution (misdemeanor),2015,0.0,50.0,,,make one payment to the compensation to victims of crime fund in an amount not to exceed $50 if the offense is a misdemeanor or not to exceed $100 if the offense is a felony;,False,False,True,False,True,range
+texas,tx_35,tex. code crim. proc. 42a.301(g)(17)a,tx_35_1,$0-$50,community supervision - victim restitution (misdemeanor),2017,0.0,50.0,,,misdameanor(paid to crimestoppers),False,False,True,False,True,range
+texas,tx_35,tex. code crim. proc. 42a.301(g)(17)a,tx_35_1,$0-$50,community supervision - victim restitution (misdemeanor),2019,0.0,50.0,,,misdameanor(paid to crimestoppers),False,False,True,False,True,range
+texas,tx_35,tex. code crim. proc. 42a.301(g)(17)a,tx_35_1,$0-$50,community supervision - victim restitution (misdemeanor),2021,0.0,50.0,,,misdameanor(paid to crimestoppers),False,False,True,False,True,range
+texas,tx_36,tex. code crim. proc. 42a.301(g)(17)b,tx_36_1,$0-$100,community supervision - victim restitution (felony),2015,0.0,100.0,,,felony(paid to crimestoppers),False,False,True,False,True,range
+texas,tx_36,tex. code crim. proc. 42a.301(g)(17)b,tx_36_1,$0-$100,community supervision - victim restitution (felony),2017,0.0,100.0,,,felony(paid to crimestoppers),False,False,True,False,True,range
+texas,tx_36,tex. code crim. proc. 42a.301(g)(17)b,tx_36_1,$0-$100,community supervision - victim restitution (felony),2019,0.0,100.0,,,felony(paid to crimestoppers),False,False,True,False,True,range
+texas,tx_36,tex. code crim. proc. 42a.301(g)(17)b,tx_36_1,$0-$100,community supervision - victim restitution (felony),2021,0.0,100.0,,,felony(paid to crimestoppers),False,False,True,False,True,range
+texas,tx_37,tex. code crim. proc. 42a.301(g)(19),tx_37_1,,community supervision - victim counseling,2015,,,,pay all or part of cost of counseling,,False,False,False,False,False,none
+texas,tx_37,tex. code crim. proc. 42a.301(g)(19),tx_37_1,,community supervision - victim counseling,2017,,,,pay all or part of cost of counseling,,False,False,False,False,False,none
+texas,tx_37,tex. code crim. proc. 42a.301(g)(19),tx_37_1,,community supervision - victim counseling,2019,,,,pay all or part of cost of counseling,,False,False,False,False,False,none
+texas,tx_37,tex. code crim. proc. 42a.301(g)(19),tx_37_1,,community supervision - victim counseling,2021,,,,pay all or part of cost of counseling,,False,False,False,False,False,none
+texas,tx_38,tex. code crim. proc. art. 42.037(m),tx_38_1,Cost of restitution,restitution - civil judgment,1993,,,,restitution,,False,False,False,False,False,none
+texas,tx_39,tex. code crim. proc. art. 37.073,tx_39_1,Cost of reward,repayment of awards,1989,,,,pay all or part of a reward,,False,False,False,False,False,none
+texas,tx_40,tex. code crim. proc. art. 42a.653,tx_40_1,$5 - $0 $5/month of community supervision,additional monthly fee for sex offenders,2015,,,5.0,,,False,False,False,True,True,fixed
+texas,tx_41,tex. loc. govt code sec.. 133.107,tx_41_r,$2 ,fee for support of indigent defense representation,2007,,,2.0,,repealed (2019),False,False,False,True,True,fixed
+texas,tx_42,tex. code crim. proc. art. 102.015,tx_42_r,$2 ,truancy prevention fund,2013,,,2.0,,repealed (2019),False,False,False,True,True,fixed
+texas,tx_43,tex. code crim. proc. art. 102.0171,tx_43_1,$50 ,juvenile delinquency prevention fund,1997,,,5.0,,grafitti eradication fee,False,False,False,True,True,fixed
+texas,tx_43,tex. code crim. proc. art. 102.0171,tx_43_1,$50 ,juvenile delinquency prevention fund,2007,0.0,50.0,,,now juveline delinquency fee and grafitti fee,False,False,True,False,True,range
+texas,tx_44,tex. transp. code sec. 727.001,tx_44_1,$0 - $50,min. road clearance of vehicles - offense,1995,0.0,50.0,,,,False,False,True,False,True,range
+texas,tx_45,tex. transp. code sec. 727.002a,tx_45_1,$0 - $1000,tampering with odometer 1st offense,1995,0.0,1000.0,,,,False,False,True,False,True,range
+texas,tx_46,tex. transp. code sec. 727.002b,tx_46_1,$0 - $1000,tampering with odometer repeated offense,1995,0.0,2000.0,,,,False,False,True,False,True,range
+texas,tx_47,tex.transp. code sec.. 708.103,tx_47_1,$125 - $250,surcharge for conviction while driving without license or insurance,2003,,,250.0,,"[A> SEC. 708.103. SURCHARGE FOR CONVICTION OF DRIVING WHILE LICENSE INVALID OR WITHOUT FINANCIAL RESPONSIBILITY. (A) EACH YEAR THE DEPARTMENT SHALL ASSESS A SURCHARGE ON THE LICENSE OF EACH PERSON WHO DURING THE PRECEDING 36-MONTH PERIOD HAS BEEN CONVICTED OF AN OFFENSE UNDER SECTION 521.457, 601.191, OR 601.371. <A]
+
+[A> (B) THE AMOUNT OF A SURCHARGE UNDER THIS SECTION IS $ 250 PER YEAR. <A]",False,False,False,True,True,fixed
+texas,tx_47,tex.transp. code sec.. 708.103,tx_47_1,$125 - $251,surcharge for conviction while driving without license or insurance,2015,,,250.0,,"Except as provided by Subsection (c), theThe amount of a surcharge under this section is $250 per year.
+(c) The amount of a surcharge under this section is $125 per year if the person:
+(1) has been convicted of an offense under Section 601.191, and no other offense described by Subsection (a); and
+(2) establishes financial responsibility under Section 601.051 not later than the 60th day after the date of the offense through a motor vehicle liability insurance policy that:
+(A) complies with Subchapter D, Chapter 601; and
+(B) is prepaid and valid for at least a six-month period.",False,False,False,True,True,fixed
+texas,tx_47,tex.transp. code sec.. 708.103,tx_47_1,$125 - $252,surcharge for conviction while driving without license or insurance except with certain conditions met,2015,,,125.0,,"Except as provided by Subsection (c), theThe amount of a surcharge under this section is $250 per year.
+(c) The amount of a surcharge under this section is $125 per year if the person:
+(1) has been convicted of an offense under Section 601.191, and no other offense described by Subsection (a); and
+(2) establishes financial responsibility under Section 601.051 not later than the 60th day after the date of the offense through a motor vehicle liability insurance policy that:
+(A) complies with Subchapter D, Chapter 601; and
+(B) is prepaid and valid for at least a six-month period.",False,False,False,True,True,fixed
+texas,tx_48,tex. transp. code sec. 701.005,tx_48_1,unknown,fees - service of a county traffic officer,1995,,,,Fee charged for county traffic officer,"Sec. 701.005. FEES. A fee may not be charged for a service of a county traffic officer. (V.A.C.S. Art. 6702-1, Sec. 2.303(f) (part).)
+
+ ",False,False,False,False,False,none
+texas,tx_49,tex. code crim. proc. art. 42a.455,tx_49_1,$0 - $50,payment to child advocacy center,2017,0.0,50.0,,,,False,False,True,False,True,range
+texas,tx_50,tex. loc. govt code sec. 133.102(1),tx_50_1,$133 ,consolidated court cost fee on conviction of a felony,2004,,,133.0,,,False,False,False,True,True,fixed
+texas,tx_50,tex. loc. govt code sec. 133.102(1),tx_50_1,$133 ,consolidated court cost fee on conviction of a felony,2019,,,185.0,,,False,False,False,True,True,fixed
+texas,tx_51,tex. loc. govt code sec. 133.102(2),tx_51_1,$83 ,consolidated court cost fee on conviction of a misdemeanor,2004,,,83.0,,,False,False,False,True,True,fixed
+texas,tx_51,tex. loc. govt code sec. 133.102(2),tx_51_1,$83 ,consolidated court cost fee on conviction of a misdemeanor,2019,,,147.0,,,False,False,False,True,True,fixed
+texas,tx_52,tex. loc. govt code sec. 133.102(3),tx_52_1,$40 ,consolidated court cost fee on conviction of a nonjailable misdemeanor offense,2004,,,40.0,,,False,False,False,True,True,fixed
+texas,tx_52,tex. loc. govt code sec. 133.102(3),tx_52_1,$40 ,consolidated court cost fee on conviction of a nonjailable misdemeanor offense,2019,,,62.0,,,False,False,False,True,True,fixed
+texas,tx_53,tex. code crim. proc. art. 102.0185,tx_53_1,$100 Applicable to intoxication convictions,fine for intoxicaiton convictions,2003,,,100.0,,"2019 Amendment: (a) In addition to the reimbursement fee imposed by Article 102.018, a person convicted of an offense under Chapter 49, Penal Code, except for Sections 49.02 and 49.031 of that code, shall pay a fine of $100 on conviction of the offense.
+(b) Fines imposed under this article are imposed without regard to whether the defendant is placed on community supervision after being convicted of the offense or receives deferred disposition or deferred adjudication for the offense.
+(c) Fines imposed under this article are collected in the manner provided for the collection of court costs by Subchapter B, Chapter 133, Local Government Code.
+(d) The officer collecting the fines under this article shall keep separate records of the money collected and shall pay the money to the custodian of the municipal or county treasury.
+(e) The custodian of the municipal or county treasury shall:
+(1) keep records of the amount of money collected under this article that is deposited with the treasury under this article; and
+(2) not later than the last day of the first month following each calendar quarter:
+(A) pay the money collected under this article during the preceding calendar quarter to the comptroller; or
+(B) if, in the calendar quarter, the custodian of the municipal or county treasury did not receive any money attributable to fines paid under this article, file a report with the comptroller stating that fact.
+(f) The comptroller shall deposit the funds received under this article to the credit of the account established under Section 773.006, Health and Safety Code.
+
+Tex. Code Crim. Proc. Art. 102.0185",False,False,False,True,True,fixed
+texas,tx_54,tex. code crim. proc. art. 102.0186,tx_54_1,$100 Applicable to child victim sex convictions,child abuse prevention fund cost,2005,,,100.0,,,False,False,False,True,True,fixed
+texas,tx_55,tex. code crim. proc. art. 102.0178,tx_55_1,$60 Applicable to drug and intoxication convictions,drug court cost,2009,,,60.0,,"In addition to other costs on conviction imposed by this chapter, a person shall pay $ 60 $ 50 as a court cost on conviction of an offense punishable as a Class B misdemeanor or any higher category of offense under:",False,False,False,True,True,fixed
+texas,tx_55,tex. code crim. proc. art. 102.0178,tx_55_1,$60 Applicable to drug and intoxication convictions,drug court cost,2013,,,60.0,,"costs attendant to convictions under Chapter 49, Penal Code, and under Chapter 481, Health and Safety Code, to help fund drug court programs established under Chapter 122, 123, 124, or 125, Government 469, Health and Safety Code , or former law (Art. 102.0178, Code of Criminal Procedure) . . . $ 60.",False,False,False,True,True,fixed
+texas,tx_56,tex. transp. code sec. 542.4031,tx_56_1,$30 Applicable to rules of the road convictions,state traffic fine,2003,,,30.0,,"[A> SEC. 542.4031. ADDITIONAL COURT COST. (A) IN ADDITION TO OTHER COSTS, INCLUDING A COST UNDER SECTION 542.403, A PERSON CONVICTED OF AN OFFENSE UNDER THIS SUBTITLE SHALL PAY $ 30 AS A COURT COST. <A]",False,False,False,True,True,fixed
+texas,tx_56,tex. transp. code sec. 542.4031,tx_56_1,$30 Applicable to rules of the road convictions,state traffic fine,2019,,,50.0,,"In addition to the fine prescribed by Section 542.401 or another section of this subtitle, as applicable, a person who enters a plea of guilty or nolo contendere to or is convicted of an offense under this subtitle shall pay $50$30 as a state traffic fine. The person shall pay the state traffic fine when the person enters the person’s plea of guilty or nolo contendere, or on the date of conviction, whichever is earlier. The state traffic fine shall be paid regardless of whether:",False,False,False,True,True,fixed
+texas,tx_57,tex. code crim. proc. art. 102.020(a)(1),tx_57_1,$250 Applicable mainly to sex convictions,dna testing court cost,2001,,,250.0,,"[A> ART. 102.020. COSTS ON CONVICTION FOR OFFENSES REQUIRING DNA TESTING. (A) A PERSON SHALL PAY $ 250 AS A COURT COST ON CONVICTION OF AN OFFENSE LISTED IN SECTION 411.1471(A)(1), GOVERNMENT CODE, AND $ 50 AS A COURT COST ON CONVICTION OF AN OFFENSE LISTED IN SECTION 411.1471(A)(3) OF THAT CODE. <A]",False,False,False,True,True,fixed
+texas,tx_57,tex. code crim. proc. art. 102.020(a)(1),tx_57_1,$250 Applicable mainly to sex convictions,dna testing court cost,2009,,,250.0,,"A person shall pay AS A COST OF COURT:
+(1)   $ 250 as a court cost on conviction of an offense listed in Section 411.1471(a)(1), Government Code;
+(2)   , and $ 50 as a court cost on conviction of an offense listed in Section 411.1471(a)(3) of that code ; OR
+(3)  $ 34 ON PLACEMENT OF THE PERSON ON COMMUNITY SUPERVISION, INCLUDING DEFERRED ADJUDICATION COMMUNITY SUPERVISION, IF THE PERSON IS REQUIRED TO SUBMIT A DNA SAMPLE UNDER SECTION 11(J), ARTICLE 42.12 .",False,False,False,True,True,fixed
+texas,tx_57,tex. code crim. proc. art. 102.020(a)(1),tx_57_1,$250 Applicable mainly to sex convictions,dna testing court cost,2015,,,250.0,,"(13) court cost for DNA testing for certain felonies (Art. 102.020(a)(1), Code of Criminal Procedure) $250;
+(14) court cost for DNA testing for certain misdemeanors and felonies the offense of public lewdness or indecent exposure (Art. 102.020(a)(2), Code of Criminal Procedure)$50;
+(15) court cost for DNA testing for certain felonies (Art. 102.020(a)(3), Code of Criminal Procedure)$34;",False,False,False,True,True,fixed
+texas,tx_58,tex. code crim. proc. art. 102.020(a)(2),tx_58_1,$50.00 - $50.00,dna testing court cost,2001,,,50.0,,"[A> ART. 102.020. COSTS ON CONVICTION FOR OFFENSES REQUIRING DNA TESTING. (A) A PERSON SHALL PAY $ 250 AS A COURT COST ON CONVICTION OF AN OFFENSE LISTED IN SECTION 411.1471(A)(1), GOVERNMENT CODE, AND $ 50 AS A COURT COST ON CONVICTION OF AN OFFENSE LISTED IN SECTION 411.1471(A)(3) OF THAT CODE. <A]",False,False,False,True,True,fixed
+texas,tx_58,tex. code crim. proc. art. 102.020(a)(2),tx_58_1,$50.00 - $50.01,dna testing court cost,2009,,,50.0,,"A person shall pay AS A COST OF COURT:
+(1)   $ 250 as a court cost on conviction of an offense listed in Section 411.1471(a)(1), Government Code;
+(2)   , and $ 50 as a court cost on conviction of an offense listed in Section 411.1471(a)(3) of that code ; OR
+(3)  $ 34 ON PLACEMENT OF THE PERSON ON COMMUNITY SUPERVISION, INCLUDING DEFERRED ADJUDICATION COMMUNITY SUPERVISION, IF THE PERSON IS REQUIRED TO SUBMIT A DNA SAMPLE UNDER SECTION 11(J), ARTICLE 42.12 .",False,False,False,True,True,fixed
+texas,tx_58,tex. code crim. proc. art. 102.020(a)(2),tx_58_1,$50.00 - $50.02,dna testing court cost,2015,,,50.0,,"(13) court cost for DNA testing for certain felonies (Art. 102.020(a)(1), Code of Criminal Procedure) $250;
+(14) court cost for DNA testing for certain misdemeanors and felonies the offense of public lewdness or indecent exposure (Art. 102.020(a)(2), Code of Criminal Procedure)$50;
+(15) court cost for DNA testing for certain felonies (Art. 102.020(a)(3), Code of Criminal Procedure)$34;",False,False,False,True,True,fixed
+texas,tx_59,tex. code crim. proc. art. 102.020(a)(3),tx_59_1,$34 Applies when person is placed on community supervision,dna testing court cost,2009,,,34.0,,"A person shall pay AS A COST OF COURT:
+(1)   $ 250 as a court cost on conviction of an offense listed in Section 411.1471(a)(1), Government Code;
+(2)   , and $ 50 as a court cost on conviction of an offense listed in Section 411.1471(a)(3) of that code ; OR
+(3)  $ 34 ON PLACEMENT OF THE PERSON ON COMMUNITY SUPERVISION, INCLUDING DEFERRED ADJUDICATION COMMUNITY SUPERVISION, IF THE PERSON IS REQUIRED TO SUBMIT A DNA SAMPLE UNDER SECTION 11(J), ARTICLE 42.12 .",False,False,False,True,True,fixed
+texas,tx_59,tex. code crim. proc. art. 102.020(a)(3),tx_59_1,$34 Applies when person is placed on community supervision,dna testing court cost,2015,,,34.0,,"(13) court cost for DNA testing for certain felonies (Art. 102.020(a)(1), Code of Criminal Procedure) $250;
+(14) court cost for DNA testing for certain misdemeanors and felonies the offense of public lewdness or indecent exposure (Art. 102.020(a)(2), Code of Criminal Procedure)$50;
+(15) court cost for DNA testing for certain felonies (Art. 102.020(a)(3), Code of Criminal Procedure)$34;",False,False,False,True,True,fixed
+texas,tx_59,tex. code crim. proc. art. 102.020(a)(3),tx_59_1,$34 Applies when person is placed on community supervision,dna testing court cost,1995,,,30.0,,,False,False,False,True,True,fixed
+texas,tx_59,tex. code crim. proc. art. 102.020(a)(3),tx_59_1,$34 Applies when person is placed on community supervision,dna testing court cost,2007,,,40.0,,,False,False,False,True,True,fixed
+texas,tx_60,tex. code crim. proc. art. 102.018(a),tx_60_1,$15 Applies to DWI,visual recording cost,1993,,,15.0,n.a,Renumbered from 102.017 to 102.018 in 1995,False,False,False,True,True,fixed
+texas,tx_61,tex. code crim. proc. art. 102.018(b),tx_61_1,cost of evaluation,evaluation cost attendant to dwi convicton,1993,,,,cost,"As of 2023: Reimbursement fees imposed under this subsection are in addition to other court costs and are due whether or not the defendant is granted community supervision in the case, except that if the court determines that the defendant is indigent and unable to pay the fee, the court may waive the imposition of the fee.; Evaluation cost ",False,False,False,False,False,none
+texas,tx_62,tex. code crim. proc. art. 102.018(c),tx_62_1,$0 - $1000 costs to the public agency arising directly from an accident response ,liability cost attendant to dwi conviction,2021,0.0,1000.0,,,"(1) Except as provided by Subsection (d) of this article, if a person commits an offense under Chapter 49, Penal Code, and as a direct result of the offense the person causes an incident resulting in an accident response by a public agency, the person is liable on conviction for the offense for the reasonable expense to the agency of the accident response.
+(2) The liability authorized by this subsection may be established by civil suit; however, if a determination is made during a criminal trial that a person committed an offense under Chapter 49, Penal Code, and as a direct result of the offense the person caused an incident resulting in an accident response by a public agency, the court may include the obligation for the liability as part of the judgment. A judgment that includes such an obligation is enforceable as any other judgment.
+(3) The liability is a debt of the person to the public agency, and the public agency may collect the debt in the same manner as the public agency collects an express or implied contractual obligation to the agency.
+(4) A person’s liability under this subsection for the reasonable expense of an accident response may not exceed $1,000 for a particular incident. For the purposes of this subdivision, a reasonable expense for an accident response includes only those costs to the public agency arising directly from an accident response to a particular incident, such as the cost of providing police, fire-fighting, rescue, ambulance, and emergency medical services at the scene of the incident and the salaries of the personnel of the public agency responding to the incident.",False,False,True,False,True,range
+texas,tx_63,tex. code crim. proc. art. 42.037(g),tx_63_1,$12.00 - $12.00,restitution installment fee,1993,,,,restitution installment fee ,"As of 2023: (g) The court may require a defendant to make restitution under this article within a specified period or in specified installments. The end of the period or the last installment may not be later than:
+(1) the end of the period of probation, if probation is ordered;
+(2) five years after the end of the term of imprisonment imposed, if the court does not order probation; or
+(3) five years after the date of sentencing in any other case.; Evaluation cost ",False,False,False,False,False,none
+texas,tx_64,tex. loc. govt code sec. 51.851(d),tx_64_r,$5.00 - $5.00,e-filing court cost,repealed,,,,,Repealed. ,False,False,False,False,False,none
+texas,tx_65,tex. loc. govt code sec. 51.702,tx_65_r,$15.00 - $15.00,county court filing fee,repealed,,,,,Repealed. ,False,False,False,False,False,none
+texas,tx_66,tex. transp. code sec. 542.403,tx_66_1,$3.00 - $3.00,court cost,1995,,,3.0,,"1995: (a) In addition to other costs, a person convicted of a misdemeanor under this subtitle shall pay $ 3 as a cost of court.(b) The officer who collects a cost under this section shall: (1) deposit in the municipal treasury a cost collected in a municipal court case; and
+(2) deposit in the county treasury a cost collected in a justice court case or in a county court case, including a case appealed from a justice or municipal court. (V.A.C.S. Art. 6701d, Sec. 143(c).)",False,False,False,True,True,fixed

@@ -1,0 +1,12 @@
+state_code,state_name,display_title,visual_path,raw_data_path
+AZ,Arizona,Arizona Fines & Fees Overview,figures/az_visuals,data_clean/penalties_az.csv
+CA,California,California Fines & Fees Overview,figures/ca_visuals,data_clean/penalties_ca.csv
+DE,Delaware,Delaware Fines & Fees Overview,figures/de_visuals,data_clean/penalties_de.csv
+ID,Idaho,Idaho Fines & Fees Overview,figures/id_visuals,data_clean/penalties_id.csv
+MS,Mississippi,Mississippi Fines & Fees Overview,figures/ms_visuals,data_clean/penalties_ms.csv
+MN,Minnesota,Minnesota Fines & Fees Overview,figures/mn_visuals,data_clean/penalties_mn.csv
+OH,Ohio,Ohio Fines & Fees Overview,figures/oh_visuals,data_clean/penalties_oh.csv
+SC,South Carolina,South Carolina Fines & Fees Overview,figures/sc_visuals,data_clean/penalties_sc.csv
+TX,Texas,Texas Fines & Fees Overview,figures/tx_visuals,data_clean/penalties_tx.csv
+VA,Virginia,Virginia Fines & Fees Overview,figures/va_visuals,data_clean/penalties_va.csv
+VT,Vermont,Vermont Fines & Fees Overview,figures/vt_visuals,data_clean/penalties_vt.csv
